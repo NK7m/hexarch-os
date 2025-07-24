@@ -1,0 +1,9 @@
+branding/
+  boot/
+    plymouth/           # Your custom Plymouth theme (folder)
+    grub/               # Your custom GRUB theme (folder)
+  os-logo/
+    login/              # Login screen logo (e.g. PNG)
+    menu/               # Menu logo/icons (e.g. PNG)
+  neofetch/
+    hexarch_logo.txt    # ASCII logo for HexArch OS (for neofetch)
