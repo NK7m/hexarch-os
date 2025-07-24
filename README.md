@@ -1,4 +1,4 @@
-# HexArch OS
+# HexArch OS 🎮💣
 
 HexArch OS is a next-generation, Arch-based Linux distribution crafted for pentesting professionals, cybersecurity enthusiasts, hackers, and developers who demand the very best in performance, flexibility, and aesthetics. Drawing inspiration from industry-leading distributions like Kali Linux, BlackArch, and Garuda Linux, HexArch OS is engineered to deliver a seamless, powerful, and visually stunning experience—right out of the box.
 
