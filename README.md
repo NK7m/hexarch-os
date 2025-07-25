@@ -150,7 +150,7 @@ HexArch OS is released under the MIT License. See [LICENSE](LICENSE) for details
 
 - [GitHub Issues](https://github.com/NK7m/hexarch-os/issues)
 - [Discussions](https://github.com/NK7m/hexarch-os/discussions)
-- [Instagram](https://instagram.com/naitik_7m) *(add your social links!)*
+- [Instagram](https://instagram.com/naitik_7m) 
 
 ---
 
