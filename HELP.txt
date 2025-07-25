@@ -1,0 +1,78 @@
+HexArch OS Branding & Customization Help
+========================================
+
+This file explains where to place your custom files (themes, logos, cursors, wallpapers) for HexArch OS and how to obtain or create them.
+
+----------------------------------------
+
+FOLDER STRUCTURE & WHAT TO PUT WHERE
+------------------------------------
+
+branding/
+  boot/
+    plymouth/           # Place your custom Plymouth theme folder here.
+    grub/               # Place your custom GRUB theme folder here.
+  os-logo/
+    login/              # Place your login screen logo(s) here (PNG recommended).
+    menu/               # Place your menu/system icon(s) here (PNG/SVG).
+  neofetch/
+    hexarch_logo.txt    # Place your ASCII logo for neofetch here (plain text file).
+  cursor/               # Place your custom cursor theme folder here (X11/Wayland cursor theme).
+  wallpapers/           # Place your wallpaper images here (JPG/PNG, any resolution).
+
+----------------------------------------
+
+HOW TO GET OR CREATE THESE FILES
+--------------------------------
+
+1. Plymouth Theme (boot/plymouth/):
+   - Download: https://www.gnome-look.org/browse/cat/108/order/latest/
+   - Create: Use the 'plymouth-theme-builder' or edit an existing theme.
+   - Place the entire theme folder here.
+
+2. GRUB Theme (boot/grub/):
+   - Download: https://www.gnome-look.org/browse/cat/109/order/latest/
+   - Create: Use tools like 'grub-customizer' or edit an existing theme.
+   - Place the entire theme folder here.
+
+3. Login Screen Logo (os-logo/login/):
+   - PNG format, transparent background recommended.
+   - Size: 256x256 or 512x512 px is typical.
+   - Create with GIMP, Photoshop, or online logo makers.
+
+4. Menu Icons (os-logo/menu/):
+   - PNG or SVG format.
+   - Use icon packs from https://www.gnome-look.org/ or design your own.
+
+5. Neofetch ASCII Logo (neofetch/hexarch_logo.txt):
+   - Create: Use https://patorjk.com/software/taag/ or draw your own ASCII art.
+   - Save as plain text file.
+   - Example:
+     ____  _            _    _              _     
+    |  _ \| |          | |  | |            | |    
+    | |_) | | ___   ___| | _| | _____  __ _| |__  
+    |  _ <| |/ _ \ / __| |/ / |/ / _ \/ _` | '_ \ 
+    | |_) | | (_) | (__|   <|   <  __/ (_| | | | |
+    |____/|_|\___/ \___|_|\_\_|\_\___|\__,_|_| |_|
+
+6. Cursor Theme (cursor/):
+   - Download: https://www.gnome-look.org/browse/cat/107/order/latest/
+   - Place the entire cursor theme folder here.
+   - Must contain 'cursors' directory and 'index.theme' file.
+
+7. Wallpapers (wallpapers/):
+   - Download: https://wallhaven.cc/ or https://unsplash.com/
+   - Use JPG or PNG images, any resolution.
+   - Place your favorite images here; the first one will be set as default.
+
+----------------------------------------
+
+TIPS
+----
+- Always use open-source or properly licensed assets.
+- For best results, match your theme colors and logos across all assets.
+- You can preview themes and icons on your current system before copying them here.
+
+----------------------------------------
+
+If you have questions, open an issue on GitHub: https://github.com/NK7m/hexarch-os/issues
